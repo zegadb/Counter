@@ -18,9 +18,10 @@ div {
     flex-direction: column;
 }
 input {
-    width: 100px;
-    height: 20px;
+    width: 200px;
+    height: 40px;
     margin: 0 0 5px 0;
+    font-size: large;
 }
 .line {
     display: flex;
@@ -29,4 +30,7 @@ input {
 .mul {
     margin-left: 5px;
     width: 40px;
+}
+p {
+    font-size: x-large;
 }
