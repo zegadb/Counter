@@ -34,6 +34,7 @@ input {
 }
 p {
     font-size: 100px;
+    text-align: center;
 }
 .sum {
     display: flex;
