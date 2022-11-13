@@ -21,7 +21,7 @@ input {
     width: 200px;
     height: 40px;
     margin: 0 0 5px 0;
-    font-size: large;
+    font-size: 50px;
 }
 .line {
     display: flex;
@@ -29,7 +29,7 @@ input {
 }
 .mul {
     margin-left: 5px;
-    width: 40px;
+    width: 80px;
 }
 p {
     font-size: x-large;
