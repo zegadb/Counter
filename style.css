@@ -35,6 +35,7 @@ input {
 p {
     font-size: 100px;
 }
-.inputArea {
-    margin-top: -100px;
+.sum {
+    display: flex;
+    justify-content: center;
 }
