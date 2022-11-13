@@ -26,3 +26,7 @@ input {
     display: flex;
     flex-direction: row;
 }
+.mul {
+    margin-left: 5px;
+    width: 40px;
+}
