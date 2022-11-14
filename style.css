@@ -30,6 +30,8 @@ input {
     border-radius: 10px;
     border: 1px solid black;
     padding: 0 0 0 10px;
+    box-shadow: 0 0 5px gray;
+    outline: none;
 }
 .line {
     display: flex;
@@ -47,6 +49,11 @@ p {
 .sum {
     display: flex;
     justify-content: center;
+    border: 1px solid black;
+    width: 310px;
+    height: 84px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray inset;
 }
 #first {
     background-color: blue;

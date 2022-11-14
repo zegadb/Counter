@@ -1,3 +1,4 @@
+let summary = document.querySelector('p')
 document.querySelectorAll('input').forEach(item => 
 {
     item.addEventListener('input', (event) =>
@@ -12,6 +13,10 @@ document.querySelectorAll('input').forEach(item =>
         const num3M = document.querySelector('#thirdM').value
         const num4M = document.querySelector('#fourthM').value
         const num5M = document.querySelector('#fifthM').value
-        document.querySelector('p').textContent = num1*num1M + num2*num2M + num3*num3M + num4*num4M + num5*num5M
+        let sum = num1*num1M + num2*num2M + num3*num3M + num4*num4M + num5*num5M
+        if (sum.toString().length <= 5) summary.style.fontSize = "100px"
+        else if (sum.toString().length > 6) summary.style.fontSize = "70px"
+        else if (sum.toString().length > 5) summary.style.fontSize = "85px"
+        summary.textContent = sum
     })
 })
