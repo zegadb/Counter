@@ -75,15 +75,24 @@ p {
     background-color: #75F175;
     color: black;
 }
-button {
-    margin-bottom: 5px;
-    border-radius: 10px;
-    border: solid 1px lightgray ;
-    width: 50%;
-    height: 30px;
-}
-.inputArea {
+.menu {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 7px;
+}
+select {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 40%;
+    height: 30px;
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    width: 40%;
+    height: 30px;
 }

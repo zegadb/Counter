@@ -1,4 +1,15 @@
 let summary = document.querySelector('p')
+const punkti = [20, 20, 40, 20, 20]
+const suri = [20, 20, 40, 20, 25]
+const balad = [35, 28, 40, 20, 25]
+document.querySelector('select').addEventListener('change', (event) => {
+    document.querySelectorAll('.mul').forEach((item, index) =>
+    {
+        if (event.target.value == 'Пункты') item.value = punkti[index];
+        else if (event.target.value == 'Суры') item.value = suri[index];
+        else if (event.target.value == 'Балад') item.value = balad[index];
+    })
+})
 document.querySelectorAll('input').forEach(item => 
 {
     item.addEventListener('input', (event) =>
