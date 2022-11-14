@@ -57,11 +57,11 @@ p {
 }
 #first {
     background-color: #7A75F1;
-    color: white;
+    color: black;
 }
 #second {
     background-color: #75D5F1;
-    color: white;
+    color: black;
 }
 #third {
     background-color: #FFFDD0;
@@ -69,11 +69,11 @@ p {
 }
 #fourth {
     background-color: #D15656;
-    color: white;
+    color: black;
 }
 #fifth {
     background-color: #75F175;
-    color: white;
+    color: black;
 }
 button {
     margin-bottom: 5px;
