@@ -28,9 +28,9 @@ input {
     font-size: 50px;
     font-family: Roboto, Arial;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 0 0 0 10px;
-    box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px lightgray;
     outline: none;
 }
 .line {
@@ -39,21 +39,21 @@ input {
 }
 .mul {
     margin-left: 5px;
-    width: 80px;
+    width: 70px;
 }
 p {
-    font-size: 100px;
+    font-size: 95px;
     font-weight: 700;
     text-align: center;
 }
 .sum {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
-    width: 310px;
+    border: 1px solid lightgray;
+    width: 300px;
     height: 95px;
     border-radius: 10px;
-    box-shadow: 0 0 5px gray inset;
+    box-shadow: 0 0 5px lightgray inset;
 }
 #first {
     background-color: blue;
@@ -77,6 +77,8 @@ p {
 }
 button {
     margin-bottom: 5px;
+    border-radius: 10px;
+    border: solid 1px lightgray ;
     width: 50%;
     height: 30px;
 }
