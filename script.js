@@ -20,3 +20,9 @@ document.querySelectorAll('input').forEach(item =>
         summary.textContent = sum
     })
 })
+document.querySelector('button').addEventListener('click', () => {
+    document.querySelectorAll('.number').forEach(item => {
+        item.value = ""
+    })
+    summary.textContent = "0"
+})

@@ -51,7 +51,7 @@ p {
     justify-content: center;
     border: 1px solid black;
     width: 310px;
-    height: 84px;
+    height: 95px;
     border-radius: 10px;
     box-shadow: 0 0 5px gray inset;
 }
@@ -74,4 +74,14 @@ p {
 #fifth {
     background-color: green;
     color: white;
+}
+button {
+    margin-bottom: 5px;
+    width: 50%;
+    height: 30px;
+}
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
