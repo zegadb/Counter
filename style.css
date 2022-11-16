@@ -28,7 +28,7 @@ input {
     font-size: 50px;
     font-family: Roboto, Arial;
     border-radius: 10px;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
     padding: 0 0 0 10px;
     box-shadow: 0 0 5px lightgray;
     outline: none;
@@ -42,14 +42,14 @@ input {
     width: 70px;
 }
 p {
-    font-size: 80px;
+    font-size: 85px;
     font-weight: 500;
     text-align: center;
 }
 .sum {
     display: flex;
     justify-content: center;
-    border: 1px solid lightgray;
+    border: 0.5px solid lightgray;
     width: 300px;
     height: 95px;
     border-radius: 10px;
@@ -84,7 +84,7 @@ p {
     margin-bottom: 7px;
 }
 select {
-    border: solid 1px lightgray;
+    border: solid 0.5px lightgray;
     border-radius: 10px;
     width: 40%;
     height: 30px;
@@ -92,7 +92,11 @@ select {
 }
 button {
     border-radius: 10px;
-    border: solid 1px lightgray;
+    border: solid 0.5px lightgray;
     width: 40%;
     height: 30px;
+    transition: all 0.05s ease-in-out;
+}
+button:active {
+    transform: scale(0.92);
 }
