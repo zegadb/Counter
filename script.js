@@ -30,10 +30,11 @@ document.querySelectorAll('input').forEach(item =>
 {
     item.addEventListener('input', (event) =>
     {
-        sumAll()
+ 
         if (sum.toString().length <= 5) summary.style.fontSize = "95px"
         else if (sum.toString().length > 6) summary.style.fontSize = "70px"
         else if (sum.toString().length > 5) summary.style.fontSize = "85px"
+        sumAll()
     })
 })
 function reset() {
