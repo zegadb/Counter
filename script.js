@@ -2,6 +2,7 @@ let summary = document.querySelector('p')
 const punkti = [20, 20, 40, 20, 20]
 const suri = [20, 20, 40, 20, 25]
 const balad = [35, 28, 45, 20, 25]
+let sum
 function sumAll() {
     const num1 = document.querySelector('#first').value
     const num2 = document.querySelector('#second').value
@@ -13,13 +14,12 @@ function sumAll() {
     const num3M = document.querySelector('#thirdM').value
     const num4M = document.querySelector('#fourthM').value
     const num5M = document.querySelector('#fifthM').value
-    let sum = num1*num1M + num2*num2M + num3*num3M + num4*num4M + num5*num5M
+    sum = num1*num1M + num2*num2M + num3*num3M + num4*num4M + num5*num5M
     summary.textContent = sum
 }
 document.querySelector('select').addEventListener('change', (event) => {
     document.querySelectorAll('.mul').forEach((item, index) =>
     {
-        // reset()
         if (event.target.value == 'Пункты') item.value = punkti[index];
         else if (event.target.value == 'Суры') item.value = suri[index];
         else if (event.target.value == 'Балад') item.value = balad[index];
