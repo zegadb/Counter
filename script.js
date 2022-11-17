@@ -9,6 +9,7 @@ summary.textContent = +window.localStorage.getItem('sum')
 const punkti = [20, 20, 40, 20, 20]
 const suri = [20, 20, 40, 20, 25]
 const balad = [35, 28, 45, 20, 25]
+const p13 = [25, 28, 40, 20, 20]
 let sum
 
 function sumAll() {
@@ -43,6 +44,7 @@ document.querySelector('select').addEventListener('change', (event) => {
         if (event.target.value == 'Пункты') item.value = punkti[index];
         else if (event.target.value == 'Суры') item.value = suri[index];
         else if (event.target.value == 'Балад') item.value = balad[index];
+        else if (event.target.value == '13 пункт') item.value = p13[index];
         sumAll()
     })
 })
