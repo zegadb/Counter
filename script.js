@@ -41,8 +41,8 @@ function clearAll () {window.localStorage.clear()}
 document.querySelector('select').addEventListener('change', (event) => {
     document.querySelectorAll('.mul').forEach((item, index) =>
     {
-        if (event.target.value == 'Пункты') item.value = punkti[index];
-        else if (event.target.value == 'Суры') item.value = suri[index];
+        if (event.target.value == 'Суры') item.value = suri[index];
+        else if (event.target.value == 'Пункты') item.value = punkti[index];
         else if (event.target.value == 'Балад') item.value = balad[index];
         else if (event.target.value == '13 пункт') item.value = p13[index];
         sumAll()
