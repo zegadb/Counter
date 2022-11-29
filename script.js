@@ -10,7 +10,7 @@ document.querySelector('#fourthM').value = +window.localStorage.getItem('fourthM
 document.querySelector('#fifthM').value = +window.localStorage.getItem('fifthM')
 document.querySelector('select').value = window.localStorage.getItem('select')
 
-let summary = document.querySelector('p')
+let summary = document.querySelector('.sum p')
 summary.textContent = +window.localStorage.getItem('sum')
 
 {/* <option>Суры</option>
@@ -84,8 +84,9 @@ document.querySelectorAll('input').forEach(item =>
     {
         sumAll()
         if (sum.toString().length <= 5) summary.style.fontSize = "85px"
-        else if (sum.toString().length > 6) summary.style.fontSize = "70px"
-        else if (sum.toString().length > 5) summary.style.fontSize = "85px"
+        else if (sum.toString().length > 6) summary.style.fontSize = (85 / sum.toString().length * 6) + "px"
+        // else if (sum.toString().length > 6) summary.style.fontSize = "70px"
+        // else if (sum.toString().length > 5) summary.style.fontSize = "85px"
     })
 })
 function reset() {
