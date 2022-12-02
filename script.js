@@ -70,7 +70,7 @@ document.querySelector('select').addEventListener('change', (event) => {
         if (event.target.value == 'Суры') item.value = suri[index];
         else if (event.target.value == 'Пункты') item.value = punkti[index];
         else if (event.target.value == 'Балад') item.value = balad[index];
-        else if (event.target.value == '13 пункт') item.value = p13[index];
+        else if (event.target.value == '13 и 14') item.value = p13[index];
         else if (event.target.value == 'Шамс') item.value = sams[index];
         else if (event.target.value == 'Хумаза') item.value = humaza[index];
         else if (event.target.value == 'Тарик') item.value = tarik[index];
